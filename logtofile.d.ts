@@ -9,7 +9,7 @@ interface LogToFile {
         errorCallback: (error) => void
     ): void;
     getLogfilePath(
-        successCallback: () => void,
+        successCallback: (path: string) => void,
         errorCallback: (error) => void
     ):void;
     getArchivedLogfilePaths(
