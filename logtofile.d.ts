@@ -36,6 +36,11 @@ interface LogToFile {
         successCallback: () => void,
         errorCallback: (error) => void
     ): void;
+    log(
+        log: string,
+        successCallback: () => void,
+        errorCallback: (error) => void
+    ): void;
 }
 
 interface CordovaPlugins {

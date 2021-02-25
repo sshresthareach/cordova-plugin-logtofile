@@ -56,5 +56,13 @@ module.exports = {
              'error',
              [line]
         );
+    },
+    log: function (line, successCb, failureCb) {
+        exec(successCb, // success
+             failureCb, // failure
+             'LogToFile',
+             'info',
+             [line]
+        );
     }
 };
