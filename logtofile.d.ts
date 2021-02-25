@@ -39,5 +39,5 @@ interface LogToFile {
 }
 
 interface CordovaPlugins {
-    logtofile: LogToFile
+    logToFile: LogToFile
 }
