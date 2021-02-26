@@ -7,5 +7,6 @@ dependencies {
 android {
     packagingOptions {
         exclude 'AndroidManifest.xml'
+        exclude 'resources.arsc'
     }
 }
